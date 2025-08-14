@@ -27,10 +27,8 @@ jobs:
 
       - name: Build documentation
         run: |
-          yarn install --frozen-lockfile  # 或 npm ci
+          yarn
           yarn doc:build   # 你的构建命令 (如: vitepress build, docusaurus build)
-        env:
-          NODE_ENV: production
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
