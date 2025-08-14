@@ -22,7 +22,7 @@ export default defineConfig({
   },
   base: `${base}/${version}`,
   publicPath: `${base}/${version}/`,
-  outputPath: `dist/${version}`,
+  outputPath: `docs/out`,
   navs,
   resolve: {
     includes: [
