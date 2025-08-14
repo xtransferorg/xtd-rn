@@ -18,6 +18,7 @@ export default defineConfig({
       skipNodeModules: true,
     },
   },
+  base: '/xtd-rn',
   publicPath: '/xtd-rn/',
   outputPath: `docs/out`,
   navs,
