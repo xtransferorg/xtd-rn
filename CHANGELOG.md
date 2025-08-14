@@ -10,6 +10,15 @@ group:
 # 变更日志
 
 
+### 0.0.2-develop.0 (2025-08-14)
+
+
+### 新功能
+
+* 修改配置文件 ([8ce2aa8](https://atta-gitlab.xtrfr.cn/atta-team/fe/fe-arch/components/xtd-rn/commit/8ce2aa8df98eafbc1face4af85e2ec0073a83560))
+* 修改docs 目录 ([de94e70](https://atta-gitlab.xtrfr.cn/atta-team/fe/fe-arch/components/xtd-rn/commit/de94e70bf01cd4accc9674ed69f567896b479828))
+* 重新生成 lock 文件 ([6315f73](https://atta-gitlab.xtrfr.cn/atta-team/fe/fe-arch/components/xtd-rn/commit/6315f73b13bd27701b58f5f88fead419e42a704a))
+
 ### [0.0.1](https://atta-gitlab.xtrfr.cn/atta-team/fe/fe-arch/components/xtd-rn/compare/v0.0.2-feat-xrn-opensource-feature.9...v0.0.1) (2025-08-13)
 
 
