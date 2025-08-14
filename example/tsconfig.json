@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json" /* Recommended React Native TSConfig base */,
+  "compilerOptions": {
+    "jsx": "react-native",
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    "baseUrl": ".",
+    "paths": {
+      "@xrnjs/ui": ["../src/index"],
+      "root/*": ["../src/components/*"]
+    },
+    "typeRoots": ["./node_modules/@types"]
+  }
+}

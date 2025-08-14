@@ -1,0 +1,31 @@
+---
+title: VirtualList 虚拟列表
+nav:
+  title: 组件
+  path: /component
+group:
+  title: 展示组件
+  path: /show
+  order: 2
+---
+
+# ~VirtualList 虚拟列表~
+
+> 不再维护，请使用 [PullToRefreshNative](/component/feedback/pull-to-refresh-native)
+
+## 代码演示
+
+<code src="./__fixtures__/basic.tsx"></code>
+
+## 属性
+
+继承于 `FlatListProps`，下面是特有属性。
+
+| 属性名                 | 描述                                                                                  | 类型                      | 默认值        |
+|---------------------|-------------------------------------------------------------------------------------|-------------------------|------------|
+| isEndReached | 从外部传入是否到达列表底部的属性 | `boolean` | - |
+| pullToRefreshProps | PullToRefresh 组件参数 | `Omit<PullToRefreshProps, 'locale' \| 'children'>` | `{}` |
+| renderEmptyComponent | 空状态组件 | `ReactElement` | - |
+| renderFooterComponent | 自定义底部渲染 | `ReactElement` | - |
+| footerText | 底部文案 | `React.ReactNode` | - |
+| footerTextStyle | 底部文案样式 | `StyleProp<TextStyle>` | - |
