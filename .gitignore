@@ -84,6 +84,7 @@ dist/
 
 node_modules
 dist/
+docs/out
 
 example/vendor
 

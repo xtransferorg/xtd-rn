@@ -2,8 +2,6 @@ import { defineConfig } from 'dumi';
 import { version } from './package.json';
 import path from 'path';
 
-const base = '/xt/xrn-ui';
-
 const navs = [
   { title: '指南', path: '/guide' },
   { title: '更新日志', path: '/changelog' },
@@ -20,8 +18,6 @@ export default defineConfig({
       skipNodeModules: true,
     },
   },
-  base: `${base}/${version}`,
-  publicPath: `${base}/${version}/`,
   outputPath: `docs/out`,
   navs,
   resolve: {
