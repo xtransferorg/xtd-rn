@@ -4,8 +4,6 @@ import path from 'path';
 
 const navs = [
   { title: '指南', path: '/guide' },
-  { title: '更新日志', path: '/changelog' },
-  { title: '升级指南', path: '/upgraded' },
   { title: 'UI组件', path: '/component' },
 ];
 
