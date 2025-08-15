@@ -33,7 +33,7 @@ function log(...args) {
     );
   } else if (branch === 'master' || tag === 'prod') {
     // captain中包含自动升级的逻辑，所以这里只需要生成changelog
-    await execShPromise('yarn release:changelog');
+    await execShPromise('yarn release');
     // 手动提交changelog
     await execShPromise(
       `git commit -m "chore(release): ${version}"`
