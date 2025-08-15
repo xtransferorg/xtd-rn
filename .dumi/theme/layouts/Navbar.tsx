@@ -2,7 +2,6 @@ import type { FC, MouseEvent } from 'react';
 import React, { useContext } from 'react';
 import { context, Link, NavLink } from 'dumi/theme';
 import LocaleSelect from 'dumi-theme-default/es/components/LocaleSelect';
-import Dropdown from 'antd/lib/dropdown';
 import 'dumi-theme-default/es/components/Navbar.less';
 import 'antd/lib/dropdown/style';
 
@@ -12,21 +11,6 @@ export enum LangType {
   zh_CN = 'zh_CN',
   zh_HK = 'zh_HK',
 }
-
-const langs = [
-  {
-    key: LangType.en_US,
-    label: 'English',
-  },
-  {
-    key: LangType.zh_CN,
-    label: '中文',
-  },
-  {
-    key: LangType.zh_HK,
-    label: '繁体中文',
-  },
-];
 
 interface INavbarProps {
   location: any;
@@ -96,22 +80,6 @@ const Navbar: FC<INavbarProps> = ({
         <div className="__dumi-default-navbar-tool" style={{ minWidth: 40 }}>
           <LocaleSelect location={location} />
           {darkPrefix}
-          <Dropdown
-            menu={{
-              items: langs,
-              onClick: ({ key }) => {
-                localStorage.setItem('_dumi_lang', key);
-                window.location.reload();
-              },
-            }}
-          >
-            <button
-              className="__dumi-default-dark-sun __dumi-default-dark-switch-active"
-              style={{ position: 'absolute', top: 16, right: 70 }}
-            >
-              {(localStorage.getItem('_dumi_lang') || LangType.zh_CN).slice(3, 5)}
-            </button>
-          </Dropdown>
         </div>
       </nav>
     </div>

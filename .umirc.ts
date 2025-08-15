@@ -52,6 +52,8 @@ export default defineConfig({
   styles: [],
   mode: 'site',
   title: `xrn-ui`,
+  favicon: 'https://github.com/hq001/picx-images-hosting/raw/master/安卓-512x512-圆192.4609vtrat.webp',
+  logo: 'https://github.com/hq001/picx-images-hosting/raw/master/安卓-512x512-圆192.4609vtrat.webp',
   theme: {
     '@c-primary': '#ff934a',
   },
