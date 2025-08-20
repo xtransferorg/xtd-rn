@@ -1,0 +1,21 @@
+---
+title: SingleCheckOptions 单选按钮
+nav:
+  title: 组件
+  path: /component
+group:
+  title: 基础组件
+  path: /basic
+  order: 2
+---
+
+# ~SingleCheckOptions 单选按钮~
+
+> 后续不再维护，请使用 [Options](options) 组件
+
+## 代码演示
+<code src="./__fixtures__/singleCheckOption.tsx" />
+
+## 属性
+
+<API hideTitle src="./SingleCheckOptions.tsx"></API>

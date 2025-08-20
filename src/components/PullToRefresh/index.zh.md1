@@ -1,0 +1,35 @@
+---
+title: PullToRefresh 刷新
+nav:
+  title: 组件
+  path: /component
+group:
+  title: 反馈组件
+  path: /feedback
+  order: 2
+---
+
+# ~PullToRefresh 下拉刷新~
+
+> 不再维护，请使用 [PullToRefreshNative](/component/feedback/pull-to-refresh-native)
+
+- 主要用于列表或者页面的下拉刷新
+
+## 代码演示
+
+<code src="./__fixtures__/basic.tsx"></code>
+
+## API
+| 属性名 | 描述 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| style | 容器样式 | ViewStyle | - |
+| HeaderComponent | 下拉刷新的header组件类 | ReactNode | - |
+| headerHeight | Header 组件的高度，也是触发刷新的下拉距离 | number | - |
+| refreshTriggerHeight | 下拉过程中，可以触发刷新的下拉距离。不穿，则默认等于 headerHeight | number | - |
+| refreshingHoldHeight | 正在刷新时，容器保持的顶部距离，如果用户不传，则默认等于 headerHeight | number | - |
+| refreshing | 当前是否正在下拉刷新请求数据中 | boolean | - |
+| onRefresh | 下拉刷新达到阈值时，回调父级 | (() => void) \| null \| undefined | - |
+| children | 子组件，只能是  ScrollView/FlatList 等 | JSX.Element | - |
+| topPullThreshold | 内部滚动组件，contentOffset.y <= topPullThreshold 时，触发顶部的下拉刷新动作 | number | - |
+| completeDelay | 完成后延迟消失的时间，单位为 ms | number | - |
+| locale | 国际化 | Locale['PullToRefresh'] | - |

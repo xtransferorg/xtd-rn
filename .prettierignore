@@ -1,0 +1,11 @@
+**/*.md
+**/*.svg
+**/*.png
+**/*.eot
+**/*.woff
+**/*.woff2
+**/*.ttf
+**/*.gif
+**/*.jpg
+**/*.jpeg
+src/icons

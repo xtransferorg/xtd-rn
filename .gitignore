@@ -1,0 +1,100 @@
+# vscode
+.vscode
+.history
+
+# OSX
+.DS_Store
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+example/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+*.iml
+
+node_modules/
+example/node_modules
+npm-debug.log
+# yarn-error.log
+# yarn.lock
+
+# BUCK
+buck-out/
+\.buckd/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+example/*.jsbundle
+
+# CocoaPods
+example/ios/Pods/
+
+# iOS schemes
+# example/ios/xt-package-xrn.xcodeproj/xcshareddata
+
+# android local.properties
+example/android/local.properties
+
+release_ios/
+release_android/
+harmony/
+*.hprof
+
+
+installer
+
+.umi
+dist/
+
+node_modules
+dist/
+docs/out
+
+example/vendor
+
+*.log
+lib
+package
+.umi-production
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
